@@ -1,0 +1,6 @@
+#!/bin/bash
+hash yarn 2>/dev/null || npm i -g yarn
+yarn install
+./gu
+./fix-dep
+echo 'done.'
