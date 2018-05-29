@@ -1,3 +1,0 @@
-#!/bin/bash
-dest="../src/typestub-curry.ts"
-./curry && mv ./output.ts "$dest" && echo "moved to $dest"
